@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,         // this is a default value
+        "**/.DS_Store": true,    // this is a default value
+
+     
+        "node_modules": true,
+        "step_definitions": true,
+        "support": true
+    },
+    "cucumberautocomplete.steps": [
+        "cypress/support/step_definitions/*.js",
+        "cypress/support/step_definitions/*/*.js",
+    ],
+    "cucumberautocomplete.syncfeatures": "cypress/integration/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+}

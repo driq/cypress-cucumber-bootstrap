@@ -1,0 +1,24 @@
+{
+  "name": "cypress-cucumber-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap project for Cypress with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "start": "node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driq/cypress-cucumber-bootstrap.git"
+  },
+  "author": "Hendrik Wouters",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^2.1.0",
+    "cypress-cucumber-preprocessor": "^1.0.0",
+    "hoek": "^4.2.1"
+  },
+  "resolved-dependencies-with-explicit-version-constraints-for-security": [
+    "hoek"
+  ]
+}
