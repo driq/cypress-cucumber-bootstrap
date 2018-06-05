@@ -14,11 +14,7 @@
   "author": "Hendrik Wouters",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^2.1.0",
-    "cypress-cucumber-preprocessor": "^1.0.0",
-    "hoek": "^4.2.1"
-  },
-  "resolved-dependencies-with-explicit-version-constraints-for-security": [
-    "hoek"
-  ]
+    "cypress": "^3.0.1",
+    "cypress-cucumber-preprocessor": "^1.0"
+  }
 }
